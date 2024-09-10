@@ -1,0 +1,39 @@
+
+
+::selection {
+    color: #000000;
+    background: #eed842;
+}
+
+.clockAndDate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Alien Encounters";
+    letter-spacing: 7px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Alien Encounters";
+    letter-spacing: 5px;
+}
